@@ -1,0 +1,87 @@
+h1 {
+    font-stretch: wider;
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    right: 230px;
+    
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+
+.main-header nav {
+    width: 50%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 5px;
+    right: 175px;
+    
+}
+
+.bar1, .bar2, .bar3 {
+    display: flex;
+    position: relative;
+    left: 300px;
+  width: 15px;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.main-header {
+    height: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: first baseline;
+    justify-content: center;
+    
+    padding: 40px 0px;
+}
+
+h2 {
+    font-size: 17px;
+    display:flex;
+    position: relative;
+    left: 5vw;
+
+
+}
+h3 {
+    font-size: 40px;
+    display: flex;
+    position: relative;
+    left: 5vw;
+    top: 1vh;
+}
+button {
+height: 50px;
+width: 150px;
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+left: 5vh;
+top: 5vh;
+
+}
+.main-body {
+    height: calc(100vh - 50px);
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+
+}
+
